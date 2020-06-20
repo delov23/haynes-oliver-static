@@ -1,3 +1,10 @@
+:root {
+    --dark: #184d47;
+    --light: #d6efc7;
+    --primary: #96bb7c;
+    --secondary: 
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -13,34 +20,56 @@ body {
 }
 
 header {
-    display: flex;
-    width: 80%;
-    height: 10vh;
+    width: 100%;
+    height: 4rem;
+    flex-direction: row;
     margin: auto;
-    align-items: center;
-}
-
-a {
-    text-decoration: none;
-    cursor: pointer;
-}
-
-.page {
-    
 }
 
 .nav-links {
+    display: flex;
+    flex-direction: row;
     justify-content: flex-end;
-    margin-left: 20%;
     list-style: none;
 }
 
 .nav-link {
-    white-space: nowrap;
-    margin-left: 2vw;
-    color: #54a0ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    padding-top: 20px !important;
     font-size: 18px;
+}
+
+a {
+    color: initial;
     text-decoration: none;
+    cursor: pointer;
+}
+
+a:visited {
+    color: initial;
+}
+
+footer {
+    height: 70px;
+    background-color: #54a0ff;
+    width: 100%;
+}
+
+.page {
+    min-height: calc(100vh - 70px);
+}
+
+.vertical-margin {
+    width: 80%;
+    margin: auto;
+}
+
+
+.text-center {
+    text-align: center;
 }
 
 .btn-controls {
@@ -89,8 +118,4 @@ a {
     transition: ease-in-out 0.2s;
     background: #54a0ff;
     color: white;
-}
-
-.text-center {
-    text-align: center;
 }
