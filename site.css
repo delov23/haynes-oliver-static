@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* TODO font-family */
+body {
+}
+
+header {
+    display: flex;
+    width: 80%;
+    height: 10vh;
+    margin: auto;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.page {
+    
+}
+
+.nav-links {
+    justify-content: flex-end;
+    margin-left: 20%;
+    list-style: none;
+}
+
+.nav-link {
+    white-space: nowrap;
+    margin-left: 2vw;
+    color: #54a0ff;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.btn-controls {
+    padding: 20px 0px 0px 0px;
+}
+
+.btn-fill::first-letter, .btn-outline::first-letter {
+    font-weight: 600;
+}
+
+.btn-wide {
+    width: 25vw !important;
+}
+
+.btn-fill {
+    width: 150px;
+    height: 50px;
+    border: 2px solid transparent;
+    background: #54a0ff;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+    margin-bottom: 5px;
+}
+
+.btn-fill:hover {
+    border: 2px solid #54a0ff;
+    transition: ease-in-out 0.2s;
+    background: white;
+    color: #54a0ff;
+}
+
+.btn-outline {
+    width: 150px;
+    height: 50px;
+    border: 2px solid #54a0ff;
+    background: transparent;
+    color: #54a0ff;
+    transition: ease-in-out 0.2s;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+
+.btn-outline:hover {
+    border: 2px solid transparent;
+    transition: ease-in-out 0.2s;
+    background: #54a0ff;
+    color: white;
+}
+
+.text-center {
+    text-align: center;
+}
