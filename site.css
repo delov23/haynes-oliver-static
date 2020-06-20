@@ -1,8 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
 :root {
-    --dark: #184d47;
-    --light: #d6efc7;
+    --dark: #3f3f44;
+    --light: #dcdcdc;
     --primary: #96bb7c;
-    --secondary: 
+    --primary-dark: #184d47;
+    --secondary: #eebb4d;
+    --font-family: 'Poppins', sans-serif;
 }
 
 * {
@@ -15,13 +19,14 @@ html {
     scroll-behavior: smooth;
 }
 
-/* TODO font-family */
 body {
+    font-family: var(--font-family);
+    font-weight: 400;
 }
 
 header {
     width: 100%;
-    height: 4rem;
+    min-height: 4rem;
     flex-direction: row;
     margin: auto;
 }
@@ -31,6 +36,7 @@ header {
     flex-direction: row;
     justify-content: flex-end;
     list-style: none;
+    background-color: var(--light);
 }
 
 .nav-link {
@@ -40,16 +46,19 @@ header {
     padding: 20px;
     padding-top: 20px !important;
     font-size: 18px;
+    color: var(--light);
+    background-color: var(--dark);
+    transition: 0.2s ease-in;
+}
+
+.nav-link:hover {
+    color: var(--dark);
+    background-color: var(--secondary);
 }
 
 a {
-    color: initial;
     text-decoration: none;
     cursor: pointer;
-}
-
-a:visited {
-    color: initial;
 }
 
 footer {
