@@ -58,3 +58,43 @@ section.contact {
     padding-bottom: 4rem;
     background-color: var(--primary);
 }
+
+@media screen and (max-width: 1500px) {
+    section.landing>img {
+        height: 20rem;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    section.landing>h1 {
+        width: 40vw;
+    }
+    
+    section.landing>img {
+        height: 15rem;
+    }
+        
+    section.about>h1 {
+        font-size: 3.5rem;
+    }
+    
+    section.about>h2 {
+        width: 70%;
+        font-size: 1rem;
+    }    
+}
+
+@media screen and (max-width: 600px) {
+    section.landing>img {
+        display: none;
+    }
+
+    section.landing>h1 {
+        width: 80vw;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    
+}

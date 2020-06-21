@@ -49,7 +49,7 @@ a {
 
 /* HEADER AND NAVIGATION */
 
-header {
+header.header {
     /* STICKY */
     position: sticky;
     top: 0;
@@ -94,13 +94,13 @@ header {
 }
 
 .nav-link:hover {
-    /* color: var(--dark); */
+    color: var(--dark);
     background-color: var(--primary);
 }
 
 /* FOOTER */
 
-footer {
+footer.footer {
     height: 90px;
     background-color: var(--dark);
     width: 100%;
@@ -349,3 +349,31 @@ section.space-top {
     }
 }
 
+@media screen and (max-width: 992px) {}
+
+@media screen and (max-width: 600px) {
+    /* HEADER AND NAVIGATION */
+    .logo-text {
+        font-size: 1.2rem;
+    }
+
+    .nav-link {
+        font-size: 16px;
+    }
+
+    /* TEXT */
+    .large-heading {
+        font-size: 3rem;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    /* HEADER AND NAVIGATION */
+    .logo-text {
+        font-size: 1rem;
+    }
+
+    .nav-link {
+        font-size: 14px;
+    }
+}
