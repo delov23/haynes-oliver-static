@@ -1,0 +1,60 @@
+section.landing {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background: linear-gradient(to left, #0652dd, #b53471, #ea2027, #f79f1f);
+    background-size: 400% 400%;
+
+    animation: gradientBG 10s ease infinite;
+    -webkit-animation: gradientBG 10s ease infinite;
+    transition: 1s ease-in-out;
+    -webkit-transition: 1s ease-in-out;
+    -moz-transition: 1s ease-in-out;
+    -ms-transition: 1s ease-in-out;
+    -o-transition: 1s ease-in-out;
+}
+
+section.landing>h1 {
+    color: var(--light);
+    text-shadow: 5px 5px var(--dark);
+    width: 40vw;
+}
+
+section.landing>img {
+    height: 30rem;
+}
+
+section.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 50vh;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    background-color: var(--grey);
+}
+
+section.about>h1 {
+    text-align: center;
+    font-size: 4rem;
+}
+
+section.about>h2 {
+    width: 50%;
+    margin: auto;
+    text-align: justify;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+section.contact {
+    padding-right: 10%;
+    padding-left: 10%;
+    min-height: 50vh;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    background-color: var(--primary);
+}
