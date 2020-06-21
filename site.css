@@ -349,10 +349,17 @@ section.space-top {
     }
 }
 
-@media screen and (max-width: 992px) {}
+@media screen and (max-width: 992px) {
+    
+}
+
+@media screen and (max-width: 820px) {
+    .cards {
+        flex-direction: column;
+    }
+}
 
 @media screen and (max-width: 600px) {
-    /* HEADER AND NAVIGATION */
     .logo-text {
         font-size: 1.2rem;
     }
@@ -361,14 +368,24 @@ section.space-top {
         font-size: 16px;
     }
 
-    /* TEXT */
     .large-heading {
         font-size: 3rem;
+    }
+
+    .card-title {
+        font-size: 2rem;
+    }
+    
+    .card-description {
+        font-size: 1rem;
+    }
+
+    .row {
+        flex-direction: column;
     }
 }
 
 @media screen and (max-width: 400px) {
-    /* HEADER AND NAVIGATION */
     .logo-text {
         font-size: 1rem;
     }

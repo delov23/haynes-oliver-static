@@ -1,4 +1,5 @@
 # Static Pages Concept for Haynes Oliver Ltd
 ## TODO
-- Responsive design
+- Responsive design ✅
 - Header adjust
+- Add Back to top button
