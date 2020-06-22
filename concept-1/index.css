@@ -59,6 +59,11 @@ section.contact {
     background-color: var(--primary);
 }
 
+iframe.map {
+    width: 350px;
+    height: 350px;
+}
+
 @media screen and (max-width: 1500px) {
     section.landing>img {
         height: 20rem;
@@ -95,6 +100,9 @@ section.contact {
     }
 }
 
-@media screen and (max-width: 400px) {
-    
+@media screen and (max-width: 320px) {
+    iframe.map {
+        width: 280px;
+        height: 280px;
+    }
 }
